@@ -11,6 +11,11 @@ body {
     padding-bottom: 2rem;
 }
 
+.navbar img {
+    width: 120px;
+    height: 50px;
+}
+
 .navbar .nav-item {
     font-size: 1.2rem;
     padding-right: 1.2rem;
@@ -38,9 +43,11 @@ body {
 
 .btn {
     margin-top: 20px;
-    width: 150px;
-    color: white;
+    width: 200px;
+    height: 68px;
+    font-size: 30px;
     font-weight: bold;
+    color: white;
     background-color: #285f88;
 }
 
@@ -78,7 +85,7 @@ body {
 /*Footer*/
 
 #footer {
-    margin-top: 330px;
+    margin-top: 374px;
     height: 100px;
     background-color: #afafaf;
 }
@@ -144,5 +151,20 @@ body {
 
     .two-cards p {
         font-size: 30px;
+    }
+}
+
+@media (min-width: 1440px){
+    .card-text {
+        font-size: 35px;
+    }
+
+    .card-icon {
+        font-size: 76px;
+        color: black;
+    }
+
+    .two-cards p {
+        font-size: 35px;
     }
 }
