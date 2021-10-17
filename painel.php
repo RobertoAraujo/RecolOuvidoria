@@ -2,9 +2,9 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<title>Login</title>
+	<title>Painel - admin</title>
 </head>
 <body>
-
+	
 </body>
 </html>
