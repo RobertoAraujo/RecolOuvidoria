@@ -15,14 +15,14 @@ body {
     height: 120px;
 }
 
-.navbar .nav-item {
+/* .navbar .nav-item {
     font-size: 1.2rem;
-    padding-right: 1.2rem;
-}
-
+    padding-right: 1.5rem;
+} */
+/* 
 .navbar .nav-link:hover {
     color: #344bab !important;
-}
+} */
 
 
 /*Dashboard body*/
@@ -40,14 +40,14 @@ body {
     height: 100%;
 }
 
-.btn {
-    margin-top: 20px;
-    width: 200px;
-    height: 68px;
+.btn-nav {
+    padding: 15px;
     font-size: 30px;
     font-weight: bold;
-    color: white;
-    background-color: #285f88;
+    color: rgb(255, 255, 255);
+    background-color: #1e4b71;
+    border-radius: 10px;
+    text-decoration: none;
 }
 
 
@@ -55,6 +55,11 @@ body {
 .card {
     justify-content: center;
     align-items: center;
+}
+
+.row-cards {
+    width: 450px;
+    border: none;
 }
 
 .card-icon {
